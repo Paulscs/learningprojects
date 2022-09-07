@@ -16,8 +16,8 @@ function pcpick(){
 //player selects 
 function playerpick(){
     const option2 = prompt("Rock, Paper, or Scissors?");
-    return option2;
     console.log('You chose: ' + option2);
+    return option2;
 }
 
 //game function for the 5 rounds
