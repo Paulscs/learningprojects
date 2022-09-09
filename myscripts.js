@@ -4,6 +4,12 @@ playerSelection = 0;
 computerSelection = 0;
 
 const picks = ["rock", "paper", "scissors"];
+const rockBtn = document.querySelector('.piedra');
+const paperBtn = document.querySelector('.papel');
+const scissorsBtn = document.querySelector('.tijeras');
+const startBtn = document.querySelector('.rectangle');
+const scoreplayer = document.querySelector(".scoreboard__score")
+const scorepc = document.querySelector(".scoreboard__score2")
 
 //function to assign a random pick for the pc
 function pcpick(){
@@ -15,6 +21,8 @@ function pcpick(){
 
 //player selects 
 function playerpick(){
+    alert("Take your pick");
+    option2.addEventListener("click", )
     const option2 = prompt("Rock, Paper, or Scissors?");
     console.log('You chose: ' + option2);
     return option2;
@@ -62,8 +70,8 @@ function playRound() {
         console.log('You Lose!');
         pc++
     }
-    }
+}
 
-    game();
+startBtn.addEventListener("click", game);
 
 

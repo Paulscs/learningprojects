@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myscripts.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="row">
-        <div class="column">
-          <img src="rock.jpg" alt="Rock" style="width:100%">
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="rectangle"> <h2 style="color: black; text-align: center;">Start Game</h2>  </div>
+    <div class="textbox"><h1>Lets play</h1></div>
+
+    <div class="flex-container">
+        <div class="column piedra">
+          <img src="https://nationaltoday.com/wp-content/uploads/2021/08/National-Pet-Rock-Day-640x514.jpg" alt="Rock">
         </div>
-        <div class="column">
-          <img src="paper.jpg" alt="Paper" style="width:100%">
+        <div class="column papel">
+          <img src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg" alt="Paper">
         </div>
-        <div class="column">
-          <img src="scissors.jpg" alt="scissors" style="width:100%">
+        <div class="column tijeras">
+          <img src="https://www.ikea.com/us/en/images/products/sy-scissors__0112301_pe263788_s5.jpg" alt="scissors">
         </div>
+      </div>
+
+      <div class="scoreboard">
+        <div class="scoreboardname player">Player</div>
+        <div class="scoreboardname pc">PC</div>
+        <div class="scoreboard__score">0</div>
+        <div class="scoreboard__score2">0</div>
       </div>
 </body>
 </html>
